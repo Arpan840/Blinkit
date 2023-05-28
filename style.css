@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: 134px 300px 600px auto auto;
+    
+}
+.logo{
+    margin: 20px;
+    
+}
+.logo .fspan{
+    color: orange;
+    font-size: 45px;
+    
+
+}
+.sspan{
+    color: green;
+    font-size: 45px;
+}
+.promis{
+    padding: 20px;
+    padding-left: 40px;
+    
+}
+.city{
+    border: none;
+}
+.search{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.search input{
+    width:35vw;
+  
+   margin-left: none;
+   border: 1px solid rgb(232, 232, 232);;
+   border-radius:0px 12px 12px 0px;
+    border-left: none;
+    padding: 0px 12px;
+}
+.search i{
+  color:black;
+  width: 30px;
+  height:3.8vh;
+  padding-left: 5px;
+  
+  padding: 15px 12px;
+
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius:12px 0px 0px 12px ;
+  border-right: none;
+  margin-right:none ;
+  
+}
+.login{
+    border:none;
+    padding:20px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.cart{
+    background-color: green;
+    color: white;
+    
+    border:none;
+    width:8vw;
+    height:8vh;
+    border-radius: 8px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.cartdiv{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:800px) {
+    .sspan {
+        color: green;
+        font-size: 18px;
+      }
+      * {
+        margin: -2px;
+        padding: 0px;
+      }
+      .logo .fspan{
+        font-size: 18px;
+      }
+      nav{
+        display: grid;
+        grid-template-columns: 50px 80px 100px 100px 100px;
+        
+    }
+    .promis{
+        padding: 15px;
+        padding-left: 20px;
+        font-size: 6px;
+        margin-left: 10px;
+        
+    }
+    .city{
+        font-size: 8px;
+        margin-top: 5px;
+       
+    }
+    .search input{
+        width:16vw;
+       margin-left: none;
+        padding: 0px 5px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .search input:hover{
+        border: none;
+    }
+    .search i{
+        color:black;
+        width: 10px;
+        height:8px;
+        padding-left: 3px;
+        
+        padding: 10px 10px;
+      
+        font-size: 10px;
+        margin-left: 10px;
+       
+      }
+      .login{
+       margin-left: 25px;
+        padding:20px;
+        font-size: 10px;
+        background-color: white;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .cart{
+        width:50px;
+        height:30px;
+        border-radius: 8px;
+        margin-top: 18px;
+        font-size: 10px;
+        margin-left: -18px;
+    }
+
+}

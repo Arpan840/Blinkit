@@ -142,9 +142,8 @@ nav {
  margin: 10px;
  border-radius: 15px;
  }
- .wrapper::-webkit-scrollbar{
-  width: 0;
- }
+ 
+
  .sellingItem{
   width: 16vw;
   height: 40vh;

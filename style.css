@@ -142,8 +142,12 @@ nav {
  margin: 10px;
  border-radius: 15px;
  }
- 
-
+ .wrapper::-webkit-scrollbar{
+  width: 20px;
+ }
+ .wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+}
  .sellingItem{
   width: 16vw;
   height: 40vh;
